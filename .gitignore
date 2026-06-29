@@ -1,0 +1,9 @@
+__pycache__/
+.ipynb_checkpoints/
+model_outputs/
+ADMISSIONS.csv
+DIAGNOSES_ICD.csv
+PROCEDURES_ICD.csv
+PATIENTS.csv
+LABEVENTS.csv
+CMS32_*.xlsx
