@@ -50,7 +50,3 @@ USE_REDUCED_FEATURE_SET = True
 - `top_reduced_BASE_features.csv` — reduced feature list used when `USE_REDUCED_FEATURE_SET = True`
 - `model_cohort_ids.csv` — frozen case/control subject IDs for a reproducible cohort
 - `requirements.txt` — reproducibility dependencies
-
-## Interpretability
-
-The notebook shows RF and Lasso SHAP beeswarms. Ensembles are RF+Lasso soft-vote and stacked.
