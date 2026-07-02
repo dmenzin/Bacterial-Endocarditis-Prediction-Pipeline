@@ -5,7 +5,7 @@ This is my portfolio-facing clinical ML notebook for predicting bacterial endoca
 Open:
 
 ```text
-BE_ICD_Portfolio_Summary_OPEN_THIS.ipynb
+endocarditis_prediction.ipynb
 ```
 
 The notebook includes cohort design, leakage controls, temporal ICD features, model evaluation, and interpretation, while implementation details live in `be_icd_portfolio_helpers.py`.
@@ -45,7 +45,7 @@ USE_REDUCED_FEATURE_SET = True
 
 ## Files
 
-- `BE_ICD_Portfolio_Summary_OPEN_THIS.ipynb` — main portfolio notebook
+- `endocarditis_prediction.ipynb` — main portfolio notebook
 - `be_icd_portfolio_helpers.py` — helper functions that keep the notebook readable
 - `top_reduced_BASE_features.csv` — reduced feature list used when `USE_REDUCED_FEATURE_SET = True`
 - `model_cohort_ids.csv` — frozen case/control subject IDs for a reproducible cohort
